@@ -1,0 +1,14 @@
+.rodape{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: self-start;
+    justify-content: space-between;
+    row-gap: 1rem;
+    .rodape__logo{
+        align-self: flex-end;
+        span{
+            text-decoration: underline;
+        }
+    }
+}
